@@ -29,9 +29,28 @@ Sample questions to help with the python assessment.
 #              "last_name": "Harrison"}
 
 # Q7. Add course to the dictionary
-this_dict = {"first_name":"Brittany",
-             "last_name": "Harrison"}
-this_dict["course"] = "DevOps"
-print(this_dict)
+# this_dict = {"first_name":"Brittany",
+#              "last_name": "Harrison"}
+# this_dict["course"] = "DevOps"
+# print(this_dict)
 
-# Q8.
+# Q8. Create a class called student. Initialise the class and create and object of that class
+
+# class Student:
+#     def __init__(self,name):
+#         self.name = name
+#
+# new_student = Student("Brittany")
+# print(new_student.name)
+
+# Q9. Create two func that takes two arguments each. Func1 = add value, Func2 = subtract value
+
+def add_value(num1,num2):
+    return num1 + num2
+
+def subtract_value(num1, num2):
+    return num1 - num2
+
+print(add_value(2,4))
+print(subtract_value(4,2))
+
