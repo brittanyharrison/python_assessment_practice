@@ -1,13 +1,9 @@
 # Python Assessment Practice 
 
 ### Topics to cover:
-<<<<<<< HEAD
--[ ] How can you inherit a class from x to y
-=======
 
- -[ ] how can you inherit a class from x to y
->>>>>>> 8580fca26ae7926180514291df3aac9f735f8726
- 
+-[ ] How can you inherit a class from x to y
+  
 -[ ] Collections - Lists - Tuples - Sets - Dictionary
  
 -[ ] Syntax related - how to declare a dictionary
