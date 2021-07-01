@@ -24,4 +24,14 @@ Sample questions to help with the python assessment.
 # List = yes, diff types = yes
 # Tuple = yes, diff types = no
 
-# Q6.
+# Q6. Create a dict with key value pairs first_name, last_name
+# this_dict = {"first_name":"Brittany",
+#              "last_name": "Harrison"}
+
+# Q7. Add course to the dictionary
+this_dict = {"first_name":"Brittany",
+             "last_name": "Harrison"}
+this_dict["course"] = "DevOps"
+print(this_dict)
+
+# Q8.
