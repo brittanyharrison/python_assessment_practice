@@ -15,4 +15,6 @@ Sample questions to help with the python assessment.
 # for number in list:
 #     print(number)
 
-#
+# AND, &&, &, == Which one returns boolean value?
+# Name = "Brittany"
+# if name == "Brittany"
