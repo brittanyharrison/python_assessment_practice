@@ -1,7 +1,7 @@
 # Python Assessment Practice 
 
 ### Topics to cover:
--[ ] how can you inherit a class from x to y
+-[ ] How can you inherit a class from x to y
  
 -[ ] Collections - Lists - Tuples - Sets - Dictionary
  
