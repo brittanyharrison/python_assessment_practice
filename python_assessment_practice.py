@@ -6,8 +6,6 @@ Sample questions to help with the python assessment.
 # Q1.Declare a function called username that takes one arg as a string and return the name
 # def username(name):
 #     return name
-#
-#
 # print(username("Brittany"))
 
 # Q2.Declare a list with numbers 1-5. Iterate through the list and display the list
@@ -22,4 +20,8 @@ Sample questions to help with the python assessment.
 # Q4. What is the difference between list and a tuple
 # Lists are mutable and tuples are immutable.
 
+# Q5. Can we add an element to list and tuple?
+# List = yes, diff types = yes
+# Tuple = yes, diff types = no
 
+# Q6.
