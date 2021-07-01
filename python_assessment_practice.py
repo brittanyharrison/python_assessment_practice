@@ -106,7 +106,7 @@ Sample questions to help with the python assessment.
 # print(new_student.student_data("Brittany"))
 
 
-# Declare a variable called city, declare a method that takes city as an arg
+# Q15. Declare a variable called city, declare a method that takes city as an arg
 # and value of the city as London and method checks if value is London
 
 # city = "London"
@@ -115,4 +115,17 @@ Sample questions to help with the python assessment.
 #         return True
 #     else:
 #         return False
-# print(check_city(city))
+
+# Q16. Import sys and math, print random method and
+# create a function that takes 2 args calculates percentage and returns the percentage
+
+import random
+import math
+num1 = random.randint(1,100)
+num2 = random.randint(1,100)
+def percentage(num1, num2):
+    return (num1 / num2) * 100
+print(percentage(num1,num2))
+
+
+
