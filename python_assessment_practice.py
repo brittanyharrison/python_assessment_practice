@@ -93,17 +93,18 @@ Sample questions to help with the python assessment.
 # Q14 Create student class with mthod called student_data, returns student_name
 # clas called devops_student and inherit student class and print name
 
-# class Student:
-#     def student_data(student_name):
-#         return student_name
-#
-#
-# class DevopsStudent(Student):
-#     super().__init__()
-#
-#
-# new_student = DevopsStudent()
-# print(new_student.student_data("Brittany"))
+class Student:
+    def student_data(self, student_name):
+        return student_name
+
+
+class DevopsStudent(Student):
+    def __init__(self):
+        super().__init__()
+
+
+new_student = DevopsStudent()
+print(new_student.student_data("Brittany"))
 
 
 # Q15. Declare a variable called city, declare a method that takes city as an arg
@@ -119,13 +120,13 @@ Sample questions to help with the python assessment.
 # Q16. Import sys and math, print random method and
 # create a function that takes 2 args calculates percentage and returns the percentage
 
-import random
-import math
-num1 = random.randint(1,100)
-num2 = random.randint(1,100)
-def percentage(num1, num2):
-    return (num1 / num2) * 100
-print(percentage(num1,num2))
-
+# import random
+# import math
+# num1 = random.randint(1,100)
+# num2 = random.randint(1,100)
+# def percentage(num1, num2):
+#     return (num1 / num2) * 100
+# print(percentage(num1,num2))
+#
 
 
